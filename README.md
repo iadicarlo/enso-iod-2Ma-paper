@@ -18,4 +18,4 @@ This repository contains the analysis notebooks used for the paper **“A 2 mill
 
 The notebooks are designed to be run with the environment described in `requirements_3.11.11.txt` from the original local project.
 
-
+[![DOI](https://zenodo.org/badge/1107786948.svg)](https://doi.org/10.5281/zenodo.17781292)
