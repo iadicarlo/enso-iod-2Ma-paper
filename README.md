@@ -12,8 +12,7 @@ This repository contains the analysis notebooks for the paper **"A 2 million yea
 │   ├── 3_IOD_ENSO_composites.ipynb
 │   └── 4_IOD_ENSO_szn_cycle.ipynb
 ├── README.md              # This file
-├── environment.yml        # Conda environment specification
-└── requirements.txt       # Pip requirements (frozen versions)
+└── requirements.txt       # Python dependencies
 ```
 
 **Note**: Data files and figure outputs are not included in this repository due to size constraints (>140 GB). Please contact the authors for access to the data.
@@ -33,20 +32,6 @@ This repository contains the analysis notebooks for the paper **"A 2 million yea
    Seasonal cycle analysis and diagnostics for IOD/ENSO.
 
 ## Installation
-
-### Using conda (recommended)
-
-```bash
-# Clone the repository
-git clone https://github.com/iadicarlo/enso-iod-2Ma-paper.git
-cd enso-iod-2Ma-paper
-
-# Create environment from environment.yml
-conda env create -f environment.yml
-conda activate enso-iod-2ma
-```
-
-### Using pip
 
 ```bash
 # Clone the repository
