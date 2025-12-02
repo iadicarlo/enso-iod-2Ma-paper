@@ -1,26 +1,22 @@
 # A 2 million year transient climate simulation reveals an opposing relationship between IOD and ENSO
 
-This repository contains the analysis notebooks and data for the paper **"A 2 million year transient climate simulation reveals an opposing relationship between IOD and ENSO"**.
+This repository contains the analysis notebooks for the paper **"A 2 million year transient climate simulation reveals an opposing relationship between IOD and ENSO"**.
 
 ## Repository Structure
 
 ```
 .
 ├── notebooks/              # Analysis notebooks
-├── variables/             # Data files organized by type
-│   ├── eof_analysis/      # EOF/PC analysis results
-│   ├── climate_indices/   # Climate index time series
-│   ├── composites/        # Composite analysis data
-│   ├── orbital_params/    # Orbital parameter files
-│   ├── reference_data/    # Reference datasets (COBE, ERSSTv5)
-│   ├── derived_data/      # Derived fields and statistics
-│   └── scripts/           # Helper scripts
-├── archive/               # Archived/old versions
-├── Figures_*/             # Figure output directories
-├── config/                # Configuration plots
-├── orbit/                 # Orbital diagram figures
-└── *.png                  # Individual figure outputs
+│   ├── 1_IOD_ENSO_PC_analysis.ipynb
+│   ├── 2_IOD_ENSO_mean_std.ipynb
+│   ├── 3_IOD_ENSO_composites.ipynb
+│   └── 4_IOD_ENSO_szn_cycle.ipynb
+├── README.md              # This file
+├── environment.yml        # Conda environment specification
+└── requirements.txt       # Pip requirements (frozen versions)
 ```
+
+**Note**: Data files and figure outputs are not included in this repository due to size constraints (>140 GB). Please contact the authors for access to the data.
 
 ## Notebooks
 
@@ -38,22 +34,16 @@ This repository contains the analysis notebooks and data for the paper **"A 2 mi
 
 ## Installation
 
-### Using uv (recommended)
-
-[uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver.
+### Using conda (recommended)
 
 ```bash
-# Install uv if you haven't already
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
 # Clone the repository
 git clone https://github.com/iadicarlo/enso-iod-2Ma-paper.git
 cd enso-iod-2Ma-paper
 
-# Create environment and install dependencies
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-uv pip install -e .
+# Create environment from environment.yml
+conda env create -f environment.yml
+conda activate enso-iod-2ma
 ```
 
 ### Using pip
@@ -63,33 +53,29 @@ uv pip install -e .
 git clone https://github.com/iadicarlo/enso-iod-2Ma-paper.git
 cd enso-iod-2Ma-paper
 
-# Create a virtual environment
+# Create a virtual environment (Python 3.11+ required)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -e .
+pip install -r requirements.txt
 ```
 
-### Alternative: Using requirements.txt
+## Data Requirements
 
-```bash
-pip install -r requirements_3.11.11.txt
-```
-
-## Data
-
-The `variables/` folder contains all preprocessed data needed to run the notebooks:
+The notebooks require preprocessed data files (not included in this repository):
 
 - **EOF/PC analysis**: Pre-computed EOF patterns and principal components
-- **Climate indices**: Niño3.4, DMI, WIO, EIO time series
+- **Climate indices**: Niño3.4, DMI, WIO, EIO time series (2 Ma)
 - **Orbital parameters**: 2 Ma orbital forcing data
 - **Composites**: SST, precipitation, wind stress composites
 - **Reference data**: COBE-SST2 and ERSSTv5 for validation
 
+Please contact the authors for access to the data files.
+
 ## Running the Notebooks
 
-After installation, launch Jupyter:
+After installation and obtaining the data, launch Jupyter:
 
 ```bash
 jupyter notebook
