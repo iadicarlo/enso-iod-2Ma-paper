@@ -1,0 +1,50 @@
+[project]
+name = "enso-iod-2ma-paper"
+version = "1.0.0"
+description = "Analysis notebooks for the paper: A 2 million year transient climate simulation reveals an opposing relationship between IOD and ENSO"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "iadicarlo", email = "i.r.d.abdelkaderdicarlo@uu.nl"}
+]
+
+dependencies = [
+    "numpy>=1.26.4",
+    "pandas>=2.1.4",
+    "xarray>=2025.1.2",
+    "matplotlib>=3.10.0",
+    "cartopy>=0.24.1",
+    "scipy>=1.15.1",
+    "netCDF4>=1.7.2",
+    "cftime>=1.6.4",
+    "seaborn>=0.13.2",
+    "cmocean>=4.0.3",
+    "nc-time-axis>=1.4.1",
+    "eofs>=2.0.0",
+    "statsmodels>=0.14.4",
+    "scikit-learn>=1.6.1",
+    "rasterio>=1.4.3",
+    "geopandas>=1.0.1",
+    "shapely>=2.0.7",
+    "pop-tools>=2023.6.0",
+    "ultraplot>=1.0.3",
+    "opencv-python>=4.11.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.0.0",
+    "h5netcdf>=1.5.0",
+    "dask>=2025.1.0",
+    "tqdm>=4.67.1",
+    "regionmask>=0.13.0",
+    "pyspharm @ git+https://github.com/jswhit/pyspharm@a464ebfed334188fc0ef275fad4aafd2d9fa716e",
+    "windspharm @ git+https://github.com/ajdawson/windspharm@53500a83b0d5024169ec74313af52f840a693a36",
+]
+
+[project.urls]
+Repository = "https://github.com/iadicarlo/enso-iod-2Ma-paper"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []

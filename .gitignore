@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific (large / local-only content)
+archive/
+energy/
+variables/
+
+# Figures and heavy outputs (kept locally, not on GitHub)
+config/
+config_mean/
+config_mean_var/
+orbit/
+Figures_*/
+szn_cycle_*/
+*.png
+
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
