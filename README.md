@@ -1,8 +1,8 @@
-# A 2 million year transient climate simulation reveals an opposing relationship between IOD and ENSO
+# A 2 million year climate simulation reveals an opposing relationship between IOD and ENSO
 
 [![DOI](https://zenodo.org/badge/1107786948.svg)](https://doi.org/10.5281/zenodo.17781292)
 
-This repository contains the analysis notebooks for the paper **"A 2 million year transient climate simulation reveals an opposing relationship between IOD and ENSO"**.
+This repository contains the analysis notebooks for the paper **"A 2 million year climate simulation reveals an opposing relationship between IOD and ENSO"**.
 
 ## Repository Structure
 
