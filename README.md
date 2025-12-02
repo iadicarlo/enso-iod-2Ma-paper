@@ -21,17 +21,17 @@ This repository contains the analysis notebooks for the paper **"A 2 million yea
 
 ## Notebooks
 
-1. **`1_IOD_ENSO_PC_analysis.ipynb`**  
-   Principal component analysis and EOF decomposition for IOD and ENSO variability.
+**`1_IOD_ENSO_PC_analysis.ipynb`**  
+Principal component analysis and EOF decomposition for IOD and ENSO variability.
 
-2. **`2_IOD_ENSO_mean_std.ipynb`**  
-   Mean and standard deviation analysis of IOD/ENSO indices across orbital configurations.
+**`2_IOD_ENSO_mean_std.ipynb`**  
+Mean and standard deviation analysis of IOD/ENSO indices across orbital configurations.
 
-3. **`3_IOD_ENSO_composites.ipynb`**  
-   Composite analyses for different IOD/ENSO phases and orbital configurations.
+**`3_IOD_ENSO_composites.ipynb`**  
+Composite analyses for different IOD/ENSO phases and orbital configurations.
 
-4. **`4_IOD_ENSO_szn_cycle.ipynb`**  
-   Seasonal cycle analysis and diagnostics for IOD/ENSO.
+**`4_IOD_ENSO_szn_cycle.ipynb`**  
+Seasonal cycle analysis and diagnostics for IOD/ENSO.
 
 ## Installation
 
