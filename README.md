@@ -1,8 +1,8 @@
-# A 2 million year climate simulation reveals an ENSO–IOD seesaw driven by orbital precession
+# A 2 million year climate simulation reveals an ENSO-IOD seesaw driven by orbital precession
 
 [![DOI](https://zenodo.org/badge/1107786948.svg)](https://doi.org/10.5281/zenodo.17781292)
 
-This repository contains the analysis notebooks for the paper **"A 2 million year climate simulation reveals an ENSO–IOD seesaw driven by orbital precession"**.
+This repository contains the analysis notebooks for the paper **"A 2 million year climate simulation reveals an ENSO-IOD seesaw driven by orbital precession"**.
 
 ## Repository Structure
 
