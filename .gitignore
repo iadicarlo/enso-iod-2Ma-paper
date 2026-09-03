@@ -67,3 +67,6 @@ szn_cycle_*/
 *.bak
 *.log
 
+
+# local project notes, not part of the published code
+docs/
