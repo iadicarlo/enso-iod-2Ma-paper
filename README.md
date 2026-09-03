@@ -33,6 +33,8 @@ Composite analyses for different IOD/ENSO phases and orbital configurations.
 **`4_IOD_ENSO_szn_cycle.ipynb`**  
 Seasonal cycle analysis and diagnostics for IOD/ENSO.
 
+Each notebook ends with a *Revision (2026)* section added for the resubmission: box means from the calendar-adjusted fields (3), seasonal phase locking and ENSO–IOD coupling versus the longitude of perihelion (2), mean-state seasonal cycles per perihelion composite (4), and the ENSO → Indian Ocean bridge in the model versus observations (1).
+
 ## Installation
 
 ```bash
