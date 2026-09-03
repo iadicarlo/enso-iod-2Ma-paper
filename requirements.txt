@@ -128,3 +128,5 @@ windspharm @ git+https://github.com/ajdawson/windspharm@53500a83b0d5024169ec7431
 xarray==2025.1.2
 xyzservices==2025.1.0
 zipp==3.21.0
+svgpath2mpl==1.0.0
+svgpathtools==1.7.4
